@@ -1,0 +1,105 @@
+/*Color Palette
+#B36A5E
+#C97C5D
+#C89F9C
+#E1C0B7
+#EED7C5
+#EEE2DF
+#E6CDC7*/
+
+body{
+    background-color: #E6CDC7;
+}
+
+#header{
+    padding: 4px;
+    background-color: #B36A5E;
+    height: 45px;
+}
+
+#container{
+    background-color: #C89F9C; 
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-decoration: none;
+    padding-top: 6px;
+    padding-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+    text-decoration: none;
+}
+
+nav li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #291614;
+}
+
+#selected {
+    padding-bottom: 1px; 
+    background: #E6CDC7;
+}
+
+#content {
+    border: 1px solid;
+    background: #E6CDC7;
+    padding: 5px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.link{
+    color: black;
+    font-style: italic;
+}
+
+figcaption {
+    color: #B36A5E;
+    text-align: center;
+}
+
+.jpg{
+    border: 2px solid #C97C5D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+hr{
+    height: 2px;
+    color: #B36A5E;
+    background-color: #B36A5E;
+    border-width: 0px;
+}
+
+.fa-linkedin, .fa-envelope, .fa-github {
+    background: #C89F9C;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+h1{
+    padding-right: 6px;
+}
